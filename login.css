@@ -1,0 +1,46 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(230, 228, 228, 0.288);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 253, 253);
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.wT3c7a_FykDhgcdjhAeqpAHaE7?pid=Api&P=0&h=180);
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.233);
+    margin: 2px;
+    
+}
+.h2 {
+    font-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}

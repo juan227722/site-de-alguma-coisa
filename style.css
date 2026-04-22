@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://thumbs.dreamstime.com/z/s%C3%ADmbolos-musicais-sem-costura-e-marcas-de-fundo-com-notas-padr%C3%A3o-vetor-160182609.jpg?w=768')  ;
+    background-size: 110%;       /* cobre toda a tela */
+    background-position: center;  /* centraliza */
+    background-repeat: no-repeat; /* não repete */
+}
+
+ 
+/* HEADER */
+header {
+    background: rgba(0, 0, 0, 0.616);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 0.1px;
+    display: center;
+    
+}
+
+.login-btn {
+    color: white;
+    text-decoration: wavy;
+}
+
+/* PRODUTOS */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.397);
+    width: 160px;
+    margin: 18px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.login-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    background: #ffffff4b;
+    padding: 5px;
+    border-radius: 5px;
+    margin: relative;
+    left: 114em;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+button {
+    border-radius: 3px;
+}
